@@ -1,0 +1,20 @@
+import NotesPage from "./pages/NotesPage"
+import NoteProvider from "./Context/NoteContext";
+
+
+function App() {
+
+
+  return (
+  <div id="app">
+
+    <NoteProvider>
+       <NotesPage/>
+    </NoteProvider>
+  </div>
+  
+    
+  )
+}
+
+export default App
