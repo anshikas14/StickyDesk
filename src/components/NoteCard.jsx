@@ -4,7 +4,7 @@ import DeleteButton from './DeleteButton';
 import Spinner from '../icons/Spinner';
 import { setNewOffset, autoGrow, setZIndex, bodyParser } from '../utils';
 import { useContext } from 'react';
-import { NoteContext } from '../Context/NoteContext';
+import { NoteContext } from '../context/NoteContext';
 
 const NoteCard = ({ note }) => {
 const [saving, setSaving] = useState(false);
