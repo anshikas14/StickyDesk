@@ -1,5 +1,5 @@
 import NotesPage from "./pages/NotesPage";
-import NoteProvider from "./Context/NoteContext";
+import NoteProvider from "./context/NoteContext";
 
 function App() {
   return (
